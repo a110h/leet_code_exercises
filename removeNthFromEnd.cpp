@@ -57,24 +57,6 @@ public:
         head = nullptr;
         return resHead;
     }
-
-    ListNode* mergeKLists(vector<ListNode*>& lists)
-    {
-        //первый нод как базовый Б
-        //для всех остальных Т (текущий)
-        //сравниваем все поэлементно ноды Б и Т
-
-
-        ListNode* res = new ListNode();
-
-        for (ListNode* list : lists)
-        {
-
-        }
-
-
-        return res;
-    }
 };
 
 int main(int argc, char *argv[])
